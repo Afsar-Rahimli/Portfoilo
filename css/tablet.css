@@ -150,8 +150,20 @@
 
  }
 
+
+
  .rwhats {
     width: 350px;
+ }
+
+ .ready > h2 {
+    font-size: 40px;
+
+ }
+
+ .lets-get > h2 {
+    font-size: 40px;
+
  }
 
  .all-rights-reserved {

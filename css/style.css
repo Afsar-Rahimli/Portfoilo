@@ -46,7 +46,6 @@ align-items: baseline;
 }
 
 .dote{ 
-align-items: flex-end;
 width: 3px;
 height: 3px;
 background: rgba(177, 108, 234, 1)
@@ -329,9 +328,6 @@ font-size: medium;
     width: 96px;
 }
 
-.space {
-   
-}
 
 .right_side {
     display: flex;
