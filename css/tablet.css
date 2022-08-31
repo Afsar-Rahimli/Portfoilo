@@ -1,0 +1,181 @@
+@media(max-width:768px) {
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    .Head{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .p-text{
+  display: flex;
+  flex-direction: column; 
+    }
+
+    .p-text > pre >h1  {
+        font-size: 30px;
+
+    }
+    .p-text > small {
+        font-size: 14px; 
+        text-align: center;
+    }
+    .img-div>img {
+        padding: 0;
+        width: 270px;
+        object-fit: cover;
+    }
+
+    .logoipsum {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+    }
+     .brandigs >h3 {
+        font-size: 21px;
+
+     }
+  
+     .lates-blog {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .left_side {
+        display: flex;
+        flex-direction: column;
+        gap: 20px ;
+        align-items: center;
+    }
+
+    .left_side > h1 {
+        font-size: 40px;
+
+    }
+    .right_side {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        padding-top: 70px;
+    }
+    .tips{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: #666 1px solid;
+        margin-bottom: 0;
+        
+    }
+    .tips > h3 {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .me>h1 {
+        font-size: 43px;
+    }
+    .me > h3 {
+        font-size:15px ;
+    }
+    .thats-me {
+        display: flex;
+        gap: 7px;
+    }
+    .Products {
+        display: grid;
+        grid-template-columns: 338px 338px;
+        margin: 0;
+    }
+    .products-img1{
+        display: flex;
+        gap: 40px;
+    }
+    .products-img {
+        width: 338px;
+    }
+    .education-work {
+        margin: 0;
+    }
+
+    .date{
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+      font-size: 11px;
+      text-align: justify;
+      
+    }
+
+   .word-on {
+    text-align: center;
+   }
+   .john {
+    display: flex;
+    flex-direction: column;
+   }
+   
+   .jade {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+
+   }
+   .jade-up {
+    display: flex;
+    text-align: justify;
+    padding-bottom: 30px;
+   }
+ .what-what {
+    font-size: 13px;
+    display: flex;
+    
+    
+ }
+
+ .lwhats {
+    width: 350px;
+    
+
+ }
+
+ .rwhats {
+    width: 350px;
+ }
+
+ .all-rights-reserved {
+    display: flex;
+    align-items: baseline;
+ }
+
+ .allrights-links {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    align-items: baseline;
+    justify-content: baseline;
+    flex: 50%;
+ }
+
+ .allrights-links > a {
+    padding: 10px;
+
+ }
+
+ .allright {
+    flex: 10%;
+ }
+
+
+    
+}
